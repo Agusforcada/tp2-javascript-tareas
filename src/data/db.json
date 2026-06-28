@@ -1,0 +1,41 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "rol": "admin",
+      "nombre": "Administrador del Refugio"
+    },
+    {
+      "id": 2,
+      "username": "usuario",
+      "password": "123",
+      "rol": "comun",
+      "nombre": "Juan Pérez"
+    }
+  ],
+  "mascotas": [
+{
+  "id": 1,
+  "nombre": "Oreo",
+  "especie": "Gato",
+  "edad": "6 meses",
+  "tamano": "Pequeño",
+  "estado": "Disponible",
+  "descripcion": "Gatito juguetón y cariñoso, ideal para departamento.",
+  "imagen": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400"
+},
+    {
+      "id": 2,
+      "nombre": "Manchita",
+      "especie": "Perro",
+      "edad": "3 años",
+      "tamano": "Mediano",
+      "estado": "Disponible",
+      "descripcion": "Perra rescatada, muy guardiana y leal.",
+      "imagen": "https://placedog.net/400/301?random"
+    }
+  ],
+  "solicitudes": []
+}
