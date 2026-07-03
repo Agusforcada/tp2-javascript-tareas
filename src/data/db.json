@@ -1,31 +1,27 @@
 {
   "usuarios": [
+    { "id": 1, "username": "admin", "password": "123", "rol": "admin", "nombre": "Administrador General" },
+    { "id": 2, "username": "agustin", "password": "123", "rol": "comun", "nombre": "Agustin Forcada" },
+    { "id": 3, "username": "maria", "password": "123", "rol": "comun", "nombre": "María Gómez" },
+    { "id": 4, "username": "carlos", "password": "123", "rol": "comun", "nombre": "Carlos Ruiz" },
+    { "id": 5, "username": "lucas", "password": "123", "rol": "comun", "nombre": "Lucas Fernández" },
+    { "id": 6, "username": "joana", "password": "123", "rol": "comun", "nombre": "Joana Silva" },
+    { "id": 7, "username": "luis", "password": "123", "rol": "comun", "nombre": "Luis Martínez" },
+    { "id": 8, "username": "victoria", "password": "123", "rol": "comun", "nombre": "Victoria López" },
+    { "id": 9, "username": "emanuel", "password": "123", "rol": "comun", "nombre": "Emanuel Torres" },
+    { "id": 10, "username": "pato", "password": "123", "rol": "comun", "nombre": "Patricio Díaz" }
+  ],
+"mascotas": [
     {
       "id": 1,
-      "username": "admin",
-      "password": "123",
-      "rol": "admin",
-      "nombre": "Administrador del Refugio"
+      "nombre": "Oreo",
+      "especie": "Gato",
+      "edad": "6 meses",
+      "tamano": "Pequeño",
+      "estado": "Disponible",
+      "descripcion": "Gatito juguetón y cariñoso, ideal para departamento.",
+      "imagen": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400"
     },
-    {
-      "id": 2,
-      "username": "usuario",
-      "password": "123",
-      "rol": "comun",
-      "nombre": "Juan Pérez"
-    }
-  ],
-  "mascotas": [
-{
-  "id": 1,
-  "nombre": "Oreo",
-  "especie": "Gato",
-  "edad": "6 meses",
-  "tamano": "Pequeño",
-  "estado": "Disponible",
-  "descripcion": "Gatito juguetón y cariñoso, ideal para departamento.",
-  "imagen": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400"
-},
     {
       "id": 2,
       "nombre": "Manchita",
@@ -34,7 +30,67 @@
       "tamano": "Mediano",
       "estado": "Disponible",
       "descripcion": "Perra rescatada, muy guardiana y leal.",
-      "imagen": "https://placedog.net/400/301?random"
+      "imagen": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=400"
+    },
+    {
+      "id": 3,
+      "nombre": "Thor",
+      "especie": "Perro",
+      "edad": "5 años",
+      "tamano": "Grande",
+      "estado": "Disponible",
+      "descripcion": "Rescatado cerca de la estación de Liniers. Es un perro de tamaño grande pero con un corazón gigante. Se lleva muy bien con niños y necesita un patio donde poder correr un rato todos los días.",
+      "imagen": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400"
+    },
+    {
+      "id": 4,
+      "nombre": "Luna",
+      "especie": "Gato",
+      "edad": "2 años",
+      "tamano": "Mediano",
+      "estado": "Disponible",
+      "descripcion": "Tranquila y muy mimosona. La encontramos refugiándose de la lluvia cerca de la plaza de Flores. Ya está castrada y vacunada, lista para ronronear en tu sillón.",
+      "imagen": "https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?w=400"
+    },
+{
+      "id": 5,
+      "nombre": "Simón",
+      "especie": "Perro",
+      "edad": "10 meses",
+      "tamano": "Pequeño",
+      "estado": "Disponible",
+      "descripcion": "Cachorro pura energía. Ideal para familias activas que quieran salir a pasear. Le encanta jugar con la pelota.",
+      "imagen": "https://placedog.net/400/300?id=43"
+    },
+    {
+      "id": 6,
+      "nombre": "Mish",
+      "especie": "Gato",
+      "edad": "8 años",
+      "tamano": "Grande",
+      "estado": "Disponible",
+      "descripcion": "Gato senior muy tranquilo y dormilón. Requiere una dieta especial pero devuelve el favor siendo el mejor compañero de siestas.",
+      "imagen": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=400"
+    },
+{
+      "id": 7,
+      "nombre": "Copito",
+      "especie": "Conejo",
+      "edad": "1 año",
+      "tamano": "Pequeño",
+      "estado": "Disponible",
+      "descripcion": "¡Sí, también rescatamos conejos! Fue hallado en una caja en Floresta. Es muy dócil, está desparasitado y come mucha zanahoria y heno.",
+      "imagen": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=400"
+    },
+    {
+      "id": 8,
+      "nombre": "Rocky",
+      "especie": "Perro",
+      "edad": "4 años",
+      "tamano": "Mediano",
+      "estado": "Disponible",
+      "descripcion": "Mestizo súper inteligente. Ya sabe sentarse y dar la pata. Buscamos un adoptante con paciencia para seguir enseñándole trucos.",
+      "imagen": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400"
     }
   ],
   "solicitudes": []

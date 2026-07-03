@@ -4,7 +4,7 @@ const FormularioMascota = ({ onGuardar, mascotaAEditar, onCancelar }) => {
   const [formData, setFormData] = useState({
     nombre: "",
     especie: "Perro",
-    edad: "", // <--- Campo nuevo
+    edad: "", 
     tamano: "Pequeño",
     descripcion: "",
     imagen: ""
@@ -54,3 +54,5 @@ const FormularioMascota = ({ onGuardar, mascotaAEditar, onCancelar }) => {
 };
 
 export default FormularioMascota;
+
+
