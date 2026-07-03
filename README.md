@@ -26,3 +26,5 @@ El sistema cuenta con autenticación y control de acceso basado en roles:
   * Cuenta con un panel exclusivo para gestionar todas las solicitudes de adopción del sistema (Aprobar, Rechazar o Eliminar registros).
   * **Credenciales de prueba:** Usuario: `admin` / Contraseña: `123`
 
+<img width="1110" height="902" alt="Captura de pantalla 2026-07-03 172245" src="https://github.com/user-attachments/assets/a437275e-6729-45dc-b160-4e9da4c7f818" />
+
