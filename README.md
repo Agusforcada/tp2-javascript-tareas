@@ -1,16 +1,28 @@
-# React + Vite
+# 🐾 PetMatch - Refugio de Animales
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Descripción de la Aplicación
+PetMatch es una plataforma web desarrollada en React.js diseñada para modernizar y facilitar el proceso de adopción de mascotas. El sistema actúa como un puente intermedio entre los animalitos rescatados y las familias dispuestas a darles un hogar, permitiendo explorar un catálogo interactivo, enviar solicitudes de adopción y gestionar el estado de las mismas.
 
-Currently, two official plugins are available:
+## 🎓 Contexto Académico
+* **Institución:** Escuela Da Vinci
+* **Materia:** Aplicaciones Web / Trabajo Práctico 2
+* **Alumno:** Agustin Ezequiel Forcada
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 Temática Elegida
+Sistema de gestión integral para un refugio de animales, enfocado en la experiencia del usuario final (vidriera de catálogo) y un panel robusto de administración para el personal del refugio.
 
-## React Compiler
+## 👥 Usuarios y Roles Disponibles
+El sistema cuenta con autenticación y control de acceso basado en roles:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Usuario Común (Adoptante):**
+  * Puede navegar por el catálogo completo de mascotas.
+  * Tiene la posibilidad de registrar una cuenta nueva.
+  * Puede enviar solicitudes de adopción y cancelarlas si se arrepiente.
+  * Realiza el seguimiento del estado de sus postulaciones.
+  * **Credenciales de prueba:** Usuario: `agustin` / Contraseña: `123`
 
-## Expanding the ESLint configuration
+* **Usuario Administrador:**
+  * Tiene acceso total al CRUD del catálogo (Crear, Editar y Eliminar mascotas).
+  * Cuenta con un panel exclusivo para gestionar todas las solicitudes de adopción del sistema (Aprobar, Rechazar o Eliminar registros).
+  * **Credenciales de prueba:** Usuario: `admin` / Contraseña: `123`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
